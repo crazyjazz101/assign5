@@ -1,0 +1,71 @@
+*{
+    padding: opx;
+    margin: 0px;
+}
+.main {
+    height: 97.2vh;
+    width: 60vw;
+    background-image: url('img3');
+    background-size: cover;
+    margin: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.chat {
+    height: 8vh;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.msg {
+    background-color: rgb(17, 114, 17);
+    height: 5vh;
+    text-align: right;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 60vw;
+    border: none;
+    border-radius: 5px;
+
+}
+.resend {
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 6vh;
+    text-align: left;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    
+    margin-top: 20px;
+    width: 60vw;
+    border: none;
+    border-radius: 5px;
+}
+.img {
+
+    background-size: cover;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+justify-content: flex-start;  
+  border-radius: 50%;
+    flex-direction: row;
+    align-items: center;
+    width: 40px;
+    vertical-align: middle;
+    position: absolute;
+    top: 2%;
+    right: 88%;
+    margin-top: 45px;
+    margin-left: 40px;
+}
